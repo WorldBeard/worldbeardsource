@@ -1,0 +1,25 @@
+﻿// Screen
+starting_screen_width = 800
+starting_screen_height = 600
+
+// Textures
+texture_directory = Assets\Textures\
+
+// Camera
+camera_buffer = 500
+camera_type = player
+camera_scroll_direction_x = 1
+camera_scroll_direction_y = 0
+
+// Clock
+clock_speed = 1
+
+// Physics
+player_speed = 300
+default_non_player_speed = 50
+gravity_pps = -400
+max_x_velocity = 400
+max_y_velocity = 40
+
+// Logger
+log_directory = C:\logging\

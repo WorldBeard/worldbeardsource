@@ -1,0 +1,8 @@
+﻿AnimationService = WorldBeardEngine.Services.Animation.AnimationService
+CollisionService = WorldBeardEngine.Services.Collision.CollisionServices.BasicCollisionService
+GuiService = WorldBeardEngine.Services.GUI.GuiService
+InputService = WorldBeardEngine.Services.Input.InputService
+MasterInput = WorldBeardEngine.Services.Input.Master.MasterInputs.BasicMasterInput
+MovementService = WorldBeardEngine.Services.Movement.MovementService
+PhysicsService = WorldBeardEngine.Services.Physics.PhysicsServices.BasicNewtonianPhysicsService
+RenderingService = WorldBeardEngine.Services.Rendering.RenderingService

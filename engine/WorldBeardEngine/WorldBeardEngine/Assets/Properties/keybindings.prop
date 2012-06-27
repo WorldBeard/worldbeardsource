@@ -1,0 +1,22 @@
+﻿// Left Value is the Key
+// Right Value is the Game-Command
+
+P = Pause
+7 = Pause
+
+A = MoveLeft
+Left = MoveLeft
+
+S = MoveDown
+Down = MoveDown
+
+D = MoveRight
+Right = MoveRight
+
+W = MoveUp
+Up = MoveUp
+
+R = PositionRight
+
+ESC = Exit
+X = Exit

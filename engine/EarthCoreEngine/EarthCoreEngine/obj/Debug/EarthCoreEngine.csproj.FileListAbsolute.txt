@@ -1,0 +1,10 @@
+C:\Users\ahabich\Desktop\WorldBeard\Engine\Engine\bin\Debug\Engine.dll
+C:\Users\ahabich\Desktop\WorldBeard\Engine\Engine\bin\Debug\Engine.pdb
+C:\Users\ahabich\Desktop\WorldBeard\Engine\Engine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ahabich\Desktop\WorldBeard\Engine\Engine\obj\Debug\Engine.dll
+C:\Users\ahabich\Desktop\WorldBeard\Engine\Engine\obj\Debug\Engine.pdb
+C:\Users\ahabich\Desktop\WorldBeard\EarthCoreEngine\EarthCoreEngine\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ahabich\Desktop\WorldBeard\EarthCoreEngine\EarthCoreEngine\bin\Debug\EarthCoreEngine.dll
+C:\Users\ahabich\Desktop\WorldBeard\EarthCoreEngine\EarthCoreEngine\bin\Debug\EarthCoreEngine.pdb
+C:\Users\ahabich\Desktop\WorldBeard\EarthCoreEngine\EarthCoreEngine\obj\Debug\EarthCoreEngine.dll
+C:\Users\ahabich\Desktop\WorldBeard\EarthCoreEngine\EarthCoreEngine\obj\Debug\EarthCoreEngine.pdb

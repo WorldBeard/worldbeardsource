@@ -1,0 +1,6 @@
+﻿logger.directory = C:\logging\
+logger.name = worldbeardlog
+
+logger.level = 0
+
+Collision = logger.component

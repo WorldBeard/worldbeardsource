@@ -1,0 +1,70 @@
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Assets\LevelDefs\LevelOne\do1.xml
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Assets\LevelDefs\LevelOne\do2.xml
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Assets\LevelDefs\LevelOne\do3.xml
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Assets\LevelDefs\LevelOne\do4.xml
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Assets\LevelDefs\LevelOne\player.xml
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Assets\Textures\AnimatedBlueDot.png
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Assets\Textures\Background.png
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Assets\Textures\BlueOnRed.png
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Assets\Textures\Player.png
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Assets\Textures\RedOnGreen.png
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\PlatformEngine.exe
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\PlatformEngine.pdb
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\DataIO.dll
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Engine.dll
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\nunit.framework.dll
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\DataIO.pdb
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\Engine.pdb
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\bin\Debug\nunit.framework.xml
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\obj\x86\Debug\WorldBeardEngine.Form1.resources
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\obj\x86\Debug\WorldBeardEngine.Properties.Resources.resources
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\obj\x86\Debug\PlatformEngine.exe
+C:\Users\ahabich\Desktop\WorldBeard\PlatformEngine\PlatformEngine\obj\x86\Debug\PlatformEngine.pdb
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\PlatformEngine\obj\x86\Debug\PlatformEngine.exe
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\PlatformEngine\obj\x86\Debug\PlatformEngine.pdb
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Textures\AnimatedBlueDot.png
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Textures\Background.png
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Textures\BlueOnRed.png
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Textures\Player.png
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Textures\RedOnGreen.png
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\nunit.framework.dll
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\nunit.framework.xml
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\WorldBeardEngine.Form1.resources
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\WorldBeardEngine.Properties.Resources.resources
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\LevelDefs\Level01.wbl
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\WorldBeardEngine.exe
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\WorldBeardEngine.pdb
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\WorldBeardEngine.exe
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\WorldBeardEngine.pdb
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\WorldBeardEngine.exe
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\WorldBeardEngine.pdb
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Textures\AnimatedBlueDot.png
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Textures\Background.png
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Textures\BlueOnRed.png
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Textures\Player.png
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Textures\RedOnGreen.png
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\LevelDefs\Level01.wbl
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\bin\Debug\WorldBeardEngine.exe
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\bin\Debug\WorldBeardEngine.pdb
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\bin\Debug\Engine.dll
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\bin\Debug\Engine.pdb
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\bin\Debug\nunit.framework.xml
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\WorldBeardEngine.Form1.resources
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\WorldBeardEngine.Properties.Resources.resources
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Ryan\Documents\Visual Studio 2010\Projects\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine 412012 1050PM\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\WorldBeardEngine.exe
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine 412012 1050PM\WorldBeardEngine\WorldBeardEngine\obj\x86\Debug\WorldBeardEngine.pdb
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\EarthCoreEngine.dll
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\EarthCoreEngine.pdb
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Properties\services.prop
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Properties\keybindings.prop
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Properties\log.prop
+C:\Users\ahabich\Desktop\WorldBeard\WorldBeardEngine\WorldBeardEngine\bin\Debug\Assets\Properties\master.prop

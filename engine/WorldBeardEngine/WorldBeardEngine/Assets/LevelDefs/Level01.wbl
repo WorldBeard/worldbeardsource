@@ -1,0 +1,64 @@
+#META-INF#
+
+LevelName: Level01;
+
+#STATIC#
+
+Obj: 00101 {
+	Name: CollidingBlueDot;
+	Component: Rendering {
+		TextureName: AnimatedBlueDot | X: 200 | Y: 200 | Height: 160 | Width: 160;
+		EventHandler: ResizeSprite { TypeToHandle: Colliding | Height: 500 | Width: 500 }
+	}
+	Component: Movement { X: -0.8 | Y: -1 | Speed: 30 }
+	Component: Animation { FramesX: 4 | FramesY: 4 }
+	Component: Collision { Subclass: Rectangle }
+}
+Obj: 00102 {
+	Name: MovingRedOnGreen;
+	Component: Rendering { TextureName: RedOnGreen | X: -100 | Y: 100 | Height: 50 | Width: 50 }
+	Component: Movement { X: 1 | Y: -1 | Speed: 80; }
+}
+Obj: 00103 {
+	Name: MovingBlueOnRed;
+	Component: Rendering { TextureName: BlueOnRed | X: -100 | Y: -100 | Height: 75 | Width: 75 }
+	Component: Movement { X: 1 | Y: 0 | Speed: 140;	}
+}
+Obj: 00104 {
+	Name: SceneryRedOnGreen;
+	Component: Rendering { TextureName: RedOnGreen | X: 100 | Y: -100 | Height: 30 | Width: 30 }
+	Component: Collision { }
+	Component: Movement { }
+	Component: Physics { }
+}
+Obj: 00105 {
+	Name: SceneryRedOnGreen;
+	Component: Rendering { TextureName: RedOnGreen | X: 100 | Y: 100 | Height: 20 | Width: 40 }
+	Component: Movement { Subclass: Circle | Radius: 150 | TimeToRotate: 10 }
+}
+Obj: 00106 {
+	Name: Squirrel!;
+	Component: Rendering { TextureName: SQRL }
+	Component: Movement { X: 1 | Y: 0 | Speed: 40 }
+	Component: Animation { FramesX: 3 | FramesY: 1 }
+}
+
+#SAVE#
+
+Obj: 10000 {
+	Name: PLAYER;
+	Component: Rendering {
+		TextureName: Player | Height: 128 | Width: 128;
+		EventHandler: ResizeSprite { TypeToHandle: Colliding | Height: 100 | Width: 100 }
+		EventHandler: SetPosition { TypeToHandle: SetPositionCommand }
+	}
+	Component: Movement {
+		Subclass: ForwardFacing;
+		EventHandler: MoveMe { TypeToHandle: MoveCommand }
+	}
+	Component: Animation { FramesX: 4 | FramesY: 9 }
+	Component: Collision { Subclass: Rectangle | CollisonPercent: 0.8 }
+	Component: Input { Subclass: ClickToMove }
+}
+
+#BUNDLES#

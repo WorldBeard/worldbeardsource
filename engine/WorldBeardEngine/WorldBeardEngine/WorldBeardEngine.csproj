@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{69BD027C-114F-42F5-8FEF-26B7B78E158C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorldBeardEngine</RootNamespace>
+    <AssemblyName>WorldBeardEngine</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.5.5.10112, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\NUnit 2.5.5\bin\net-2.0\framework\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tao.DevIl, Version=1.6.8.3, Culture=neutral, PublicKeyToken=7ec4053013524957, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\TaoFramework\bin\Tao.DevIl.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.OpenGl, Version=2.1.0.12, Culture=neutral, PublicKeyToken=1ca010269a4501ef, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\TaoFramework\bin\Tao.OpenGl.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Platform.Windows, Version=1.0.0.5, Culture=neutral, PublicKeyToken=701104b2da67a104, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\TaoFramework\bin\Tao.Platform.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Sdl, Version=1.2.13.0, Culture=neutral, PublicKeyToken=9c7a200e36c0094e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\TaoFramework\bin\Tao.Sdl.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\AssetTextureManager.cs" />
+    <Compile Include="Components\ComponentType.cs" />
+    <Compile Include="Components\ComponentTypeUtil.cs" />
+    <Compile Include="Components\GameObject.cs" />
+    <Compile Include="Components\Component.cs" />
+    <Compile Include="ConfigSettings.cs" />
+    <Compile Include="EventHandlers\EventHandlerArgWriteUtil.cs" />
+    <Compile Include="Events\EventArgWriteUtil.cs" />
+    <Compile Include="EventHandlers\EventHandlerArgUtil.cs" />
+    <Compile Include="EventHandlers\EventHandlerDecorator.cs" />
+    <Compile Include="EventHandlers\HandlerDelegateFactory.cs" />
+    <Compile Include="Events\EventArgReadUtil.cs" />
+    <Compile Include="Events\EventFactory.cs" />
+    <Compile Include="Events\EventHub\EventFilter.cs" />
+    <Compile Include="Events\EventHub\EventHub.cs" />
+    <Compile Include="Events\EventHub\FilterInitializer.cs" />
+    <Compile Include="Events\EventType.cs" />
+    <Compile Include="Events\GameEvent.cs" />
+    <Compile Include="EventHandlers\GameEventHandler.cs" />
+    <Compile Include="Events\IEventReceiver.cs" />
+    <Compile Include="GameClock.cs" />
+    <Compile Include="Load\ComponentFactories\AnimationFactory.cs" />
+    <Compile Include="Load\ComponentFactories\CollisionFactory.cs" />
+    <Compile Include="Load\ComponentFactories\ComponentDOUtil.cs" />
+    <Compile Include="Load\ComponentFactories\GuiFactory.cs" />
+    <Compile Include="Load\ComponentFactories\IComponentFactory.cs" />
+    <Compile Include="Load\ComponentFactories\InputFactory.cs" />
+    <Compile Include="Load\ComponentFactories\MovementFactory.cs" />
+    <Compile Include="Load\ComponentFactories\PhysicsFactory.cs" />
+    <Compile Include="Load\ComponentFactories\RenderingFactory.cs" />
+    <Compile Include="Events\EventTypeUtil.cs" />
+    <Compile Include="Load\LevelDefReader.cs" />
+    <Compile Include="Load\AbstractComponentFactory.cs" />
+    <Compile Include="Load\AbstractEventFactory.cs" />
+    <Compile Include="Load\ComponentDO.cs" />
+    <Compile Include="Load\EventHandlerDO.cs" />
+    <Compile Include="Load\GameEventDO.cs" />
+    <Compile Include="Load\AbstractEventHandlerFactory.cs" />
+    <Compile Include="Load\AbstractObjectFactory.cs" />
+    <Compile Include="Load\GameObjectDO.cs" />
+    <Compile Include="Load\LevelLoader.cs" />
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Logging\LoggerLevel.cs" />
+    <Compile Include="Services\Animation\AnimationComponent.cs" />
+    <Compile Include="Services\Animation\AnimationService.cs" />
+    <Compile Include="Services\Collision\CollisionComponent.cs" />
+    <Compile Include="Services\Collision\CollisionDetector.cs" />
+    <Compile Include="Services\Collision\CollisionService.cs" />
+    <Compile Include="Services\Collision\CollisionServices\BasicCollisionService.cs" />
+    <Compile Include="Services\Collision\CollisionShape.cs" />
+    <Compile Include="Services\Collision\CollisionTypes\CollisionCircle.cs" />
+    <Compile Include="Services\Collision\CollisionTypes\CollisionRectangle.cs" />
+    <Compile Include="Services\Collision\CollisionTypes\CollisionTests\CollisionDetectorTest.cs" />
+    <Compile Include="Services\GUI\GuiComponent.cs" />
+    <Compile Include="Services\GUI\GuiService.cs" />
+    <Compile Include="Services\GUI\GuiTextureType.cs" />
+    <Compile Include="Services\GUI\GuiTextureTypeUtil.cs" />
+    <Compile Include="Services\Input\Controls\ControlMapping.cs" />
+    <Compile Include="Services\Input\Controls\InputCommand.cs" />
+    <Compile Include="Services\Input\Controls\InputCommandUtil.cs" />
+    <Compile Include="Services\Input\InputComponent.cs" />
+    <Compile Include="Services\Input\InputService.cs" />
+    <Compile Include="Services\Input\InputTypes\BasicPlayerInput.cs" />
+    <Compile Include="Services\Input\InputTypes\ClickToMoveInput.cs" />
+    <Compile Include="Services\Input\Master\MasterInput.cs" />
+    <Compile Include="Services\Input\Master\MasterInputState.cs" />
+    <Compile Include="Services\Input\Master\MasterInputs\BasicMasterInput.cs" />
+    <Compile Include="Services\Movement\MovementComponent.cs" />
+    <Compile Include="Services\Movement\MovementService.cs" />
+    <Compile Include="Services\Movement\MovementTypes\BasicMovement.cs" />
+    <Compile Include="Services\Movement\MovementTypes\CircleMovement.cs" />
+    <Compile Include="Services\Movement\MovementTypes\ForwardFacingMovement.cs" />
+    <Compile Include="Services\Physics\PhysicsComponent.cs" />
+    <Compile Include="Services\Physics\PhysicsService.cs" />
+    <Compile Include="Services\Physics\PhysicsServices\BasicNewtonianPhysicsService.cs" />
+    <Compile Include="Services\Rendering\Cameras\ScrollingCamera.cs" />
+    <Compile Include="Services\Rendering\Cameras\SpriteFollowingCamera.cs" />
+    <Compile Include="Services\Rendering\CameraRenderer.cs" />
+    <Compile Include="Services\Rendering\Cameras\StaticPositionableCamera.cs" />
+    <Compile Include="Services\Rendering\RenderingComponent.cs" />
+    <Compile Include="Services\Rendering\RenderingTypes\GuiRenderingComponent.cs" />
+    <Compile Include="Services\Rendering\RenderingTypes\MultiTexureRenderingComponent.cs" />
+    <Compile Include="Services\Service.cs" />
+    <Compile Include="Services\ServiceRegistrar.cs" />
+    <Compile Include="Services\Rendering\Camera.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Rendering\CameraFactory.cs" />
+    <Compile Include="Services\Rendering\Cameras\StaticCamera.cs" />
+    <Compile Include="Services\Rendering\RenderingService.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingletonFactory.cs" />
+    <Compile Include="LevelState.cs" />
+    <Compile Include="Util\PositionUtil.cs" />
+    <Compile Include="Util\PropertyUtil.cs" />
+    <Compile Include="Util\ReflectionUtil.cs" />
+    <Compile Include="Util\StringUtil.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Assets\LevelDefs\Level01.wbl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Assets\Properties\keybindings.prop">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Assets\Properties\master.prop">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Assets\Properties\services.prop">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Assets\Properties\log.prop">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\EarthCoreEngine\EarthCoreEngine\EarthCoreEngine.csproj">
+      <Project>{4EA2803B-D054-4972-AB1D-9E258FA22275}</Project>
+      <Name>EarthCoreEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\Sounds\" />
+    <Folder Include="Services\Physics\PhysicsTypes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\Textures\AnimatedBlueDot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Textures\Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Textures\BlueOnRed.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Textures\Player.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Textures\RedOnGreen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
